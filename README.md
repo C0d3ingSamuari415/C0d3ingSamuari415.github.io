@@ -1,4 +1,4 @@
-# Curtis | Cybersecurity Analyst & SOC Portfolio
+Cybersecurity Analyst & SOC Portfolio
 
 Welcome to my interactive cybersecurity portfolio.  
 I specialize in SOC analysis, threat detection, incident response, and security automation.
