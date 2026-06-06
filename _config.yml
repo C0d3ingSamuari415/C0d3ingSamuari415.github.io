@@ -1,1 +1,30 @@
+title: "Curtis | Cybersecurity Portfolio"
+description: "SOC Labs, Automation, Packet Analysis, and Cloud Security Projects"
+theme: jekyll-theme-cayman
+
+# Navigation Menu
+nav:
+  - name: Home
+    link: /
+  - name: SOC Labs
+    link: /projects/soc-labs/
+  - name: Automation
+    link: /projects/automation/
+  - name: Packet Analysis
+    link: /projects/packet-analysis/
+  - name: Cloud Security
+    link: /projects/cloud-security/
+  - name: Contact
+    link: /contact
+
+# Markdown + GitHub Pages Settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Optional: Enable syntax highlighting for code blocks
+highlighter: rouge
+
+# Optional: Make URLs clean (no .html)
+permalink: pretty
 
