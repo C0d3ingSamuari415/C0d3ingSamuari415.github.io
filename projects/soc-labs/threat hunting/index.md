@@ -55,7 +55,24 @@ Linked PowerShell to parent processes:
 
 ---
 
-## 📊 Screenshots
-Add images to:
+title: Suspicious PowerShell Encoded Command
+id: powershell-encoded-command
+status: experimental
+logsource:
+  product: windows
+  service: powershell
+detection:
+  selection:
+    ScriptBlockText|contains: "-enc"
+  condition: selection
+level: high
+tags:
+  - attack.execution
+  - attack.t1059.001
 
-
+🧠 What I Learned...
+-How to analyze PowerShell Script Block logs
+-How to detect encoded/obfuscated commands
+-How to correlate parent/child processes
+-How to build Sigma detection rules
+-How to document threat hunting investigations
