@@ -1,28 +1,38 @@
-# Log Parsing Automation Script
+# Log Parsing Automation
 
 ## 📝 Overview
-This Python script automates the extraction, normalization, and analysis of Windows Event Logs and Sysmon logs.  
-It reduces manual log review time and helps identify suspicious authentication patterns.
+Describe what logs you parsed (Windows, Sysmon, Linux, firewall) and why this automation matters for SOC workflows.
+
+## 🎯 Objectives
+- Normalize logs  
+- Extract key fields  
+- Identify suspicious patterns  
+- Reduce manual review time  
 
 ## 🔧 Tools & Technologies
 - Python  
 - Pandas  
 - Regex  
-- Sysmon / Windows Event Logs  
+- CSV/JSON log files  
 
 ## 🚀 Features
-- Extracts Event IDs (4624, 4625, 4768, 4769)  
-- Normalizes usernames, IPs, and logon types  
-- Flags suspicious patterns  
-- Outputs clean CSV for SIEM ingestion  
+- Feature 1  
+- Feature 2  
+- Feature 3  
+
+## 📂 Example Input
+Describe or paste a sample log snippet.
 
 ## 📊 Example Output
-- Failed login bursts  
-- Successful logins after failures  
-- Suspicious IP correlation  
+Explain what the script produces (CSV, alerts, flags, etc.)
+
+## 📸 Screenshots
+Add your images here:
+
+
+
 
 ## 🧠 What I Learned
-- Log normalization  
-- Parsing large datasets  
-- Automating repetitive SOC tasks  
-
+- Key takeaway 1  
+- Key takeaway 2  
+- Key takeaway 3  
