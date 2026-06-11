@@ -1,23 +1,17 @@
-# Threat Detection — [Detection Name]
+# Threat Detection Engineering
 
-## 📝 Overview
-Explain the threat behavior and why it needs detection.
+This section contains custom detection logic built using Sigma, KQL, and SIEM queries.  
+Each detection focuses on identifying malicious behaviors aligned with MITRE ATT&CK.
 
-## 🔧 Tools Used
-- Sigma  
-- KQL  
-- Elastic Query  
-- Sentinel  
+## Detections
+- [Detection 1 — Add Title](detection-1/)
+- [Detection 2 — Add Title](detection-2/)
+- [Detection 3 — Add Title](detection-3/)
 
-## 🛡️ Detection Logic
-Paste your rule or query.
-
-## 🧪 Testing the Detection
-Describe how you validated it.
-
-## 📊 Screenshots
-Add detection screenshots here.
-
-## 🧠 What I Learned
-Short bullet list.
+## Skills Demonstrated
+- Sigma rule creation  
+- KQL detection engineering  
+- Behavior-based detection  
+- MITRE ATT&CK mapping  
+- Alert validation  
 
