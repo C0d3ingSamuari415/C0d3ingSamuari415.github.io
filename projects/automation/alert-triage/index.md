@@ -1,27 +1,36 @@
 # Alert Triage Automation
 
 ## 📝 Overview
-This script automates the first stage of alert triage by extracting key fields, enriching IOCs, and assigning a severity score.
+Explain how your script automates the first stage of alert triage.
+
+## 🎯 Objectives
+- Extract alert fields  
+- Enrich IOCs  
+- Assign severity  
+- Generate analyst-ready summaries  
 
 ## 🔧 Tools & Technologies
 - Python  
 - Pandas  
+- YAML scoring logic  
 - OSINT APIs  
-- YAML-based scoring logic  
 
 ## 🚀 Features
-- Auto-extracts alert fields  
-- Enriches IPs/domains  
-- Assigns severity (Low/Med/High)  
-- Generates analyst-ready summary  
+- Feature 1  
+- Feature 2  
+- Feature 3  
+
+## 📂 Example Input
+Describe the alert format.
 
 ## 📊 Example Output
-- Alert summary  
-- IOC reputation  
-- Recommended next steps  
+Explain the triage summary.
+
+## 📸 Screenshots
+
+
 
 ## 🧠 What I Learned
-- Alert triage logic  
-- Severity scoring  
-- Automating SOC workflows  
-
+- Key takeaway 1  
+- Key takeaway 2  
+- Key takeaway 3  
