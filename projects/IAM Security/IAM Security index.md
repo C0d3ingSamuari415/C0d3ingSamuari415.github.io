@@ -1,22 +1,16 @@
-# IAM Security Lab — [Lab Title]
+# IAM Security Labs
 
-## 📝 Overview
-Explain the IAM issue and why it matters.
+This section contains hands-on identity security investigations across AWS and Azure, focusing on misconfigurations, privilege escalation paths, access reviews, and identity threat detection.
 
-## 🔧 Tools Used
-- AWS IAM  
-- Azure AD  
-- Policy Analyzer  
+## Labs
+- [IAM Lab 1 — Add Title](lab-1/)
+- [IAM Lab 2 — Add Title](lab-2/)
+- [IAM Lab 3 — Add Title](lab-3/)
 
-## 🧪 Investigation Steps
-1. Review IAM roles  
-2. Identify risky permissions  
-3. Test escalation path  
-4. Document findings  
-
-## 📊 Screenshots
-Add IAM screenshots here.
-
-## 🧠 What I Learned
-Short bullet list.
+## Skills Demonstrated
+- IAM hardening  
+- Privilege escalation analysis  
+- Access review  
+- Cloud identity logging  
+- MITRE ATT&CK mapping  
 
