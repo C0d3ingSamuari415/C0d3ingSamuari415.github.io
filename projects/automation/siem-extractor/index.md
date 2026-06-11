@@ -1,27 +1,33 @@
 # SIEM Data Extraction Script
 
 ## 📝 Overview
-This script automates the extraction of SIEM logs using API queries.  
-It reduces manual dashboard navigation and speeds up investigations.
+Explain how your script pulls logs from Splunk, Elastic, or Sentinel via API.
+
+## 🎯 Objectives
+- Automate SIEM queries  
+- Export logs for analysis  
+- Normalize timestamps and fields  
 
 ## 🔧 Tools & Technologies
 - Python  
-- Splunk REST API or Elastic API  
+- Splunk REST API / Elastic API  
 - JSON → CSV conversion  
 
 ## 🚀 Features
-- Query SIEM logs via API  
-- Export results to CSV  
-- Normalize timestamps  
-- Filter by Event ID or keyword  
+- Feature 1  
+- Feature 2  
+- Feature 3  
 
-## 📊 Example Use Cases
-- Pulling authentication logs  
-- Exporting correlation search results  
-- Investigating brute-force attempts  
+## 📂 Example Input
+Describe the query or API call.
+
+## 📊 Example Output
+Explain the exported results.
+
+## 📸 Screenshots
+
 
 ## 🧠 What I Learned
-- SIEM API usage  
-- Query automation  
-- Data normalization  
-
+- Key takeaway 1  
+- Key takeaway 2  
+- Key takeaway 3  
