@@ -1,0 +1,36 @@
+# SOC Lab 3 — [Add Lab Title]
+
+## 📝 Overview
+Describe the network or endpoint behavior you investigated.
+
+## 🎯 Objectives
+- Detect suspicious traffic  
+- Identify beaconing or exfiltration  
+- Validate IOCs  
+- Document findings  
+
+## 🔧 Tools Used
+- Wireshark  
+- Zeek  
+- SIEM  
+- OSINT  
+
+## 🧪 Investigation Steps
+1. Step 1  
+2. Step 2  
+3. Step 3  
+4. Findings  
+
+## 📊 Screenshots
+Add your images here:
+
+
+
+## 🛡️ MITRE ATT&CK Mapping
+- T1071 — Application Layer Protocol  
+- T1041 — Exfiltration Over C2 Channel  
+
+## 🧠 What I Learned
+- Key takeaway 1  
+- Key takeaway 2  
+- Key takeaway 3  
