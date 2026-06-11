@@ -1,24 +1,16 @@
-# Cloud Security Lab — [Lab Title]
+# Cloud Security Projects
 
-## 📝 Overview
-Explain the cloud security issue and what you investigated.
+This section contains hands-on cloud security labs across AWS and Azure, focusing on IAM hardening, detection engineering, logging, and misconfiguration analysis.
 
-## 🔧 Cloud Platform
-- AWS / Azure  
+## Projects
+- [Cloud Security Lab 1 — Add Title](lab-1/)
+- [Cloud Security Lab 2 — Add Title](lab-2/)
+- [Cloud Security Lab 3 — Add Title](lab-3/)
 
-## 🧪 Steps Performed
-1. Identify misconfiguration  
-2. Analyze logs  
-3. Validate permissions  
-4. Fix or detect the issue  
-
-## 📊 Screenshots
-Add cloud console screenshots here.
-
-## 🛡️ MITRE ATT&CK Mapping
-- T1484 — Domain Policy Modification  
-- T1078 — Valid Accounts  
-
-## 🧠 What I Learned
-Short bullet list.
+## Skills Demonstrated
+- IAM hardening  
+- Cloud monitoring  
+- Detection engineering  
+- Log analysis  
+- Misconfiguration identification  
 
