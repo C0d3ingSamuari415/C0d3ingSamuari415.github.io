@@ -1,15 +1,24 @@
-# Cloud Security Projects
+# Cloud Security Lab — [Lab Title]
 
-Hands-on cloud security labs across AWS and Azure.
+## 📝 Overview
+Explain the cloud security issue and what you investigated.
 
-## Projects
-- AWS IAM misconfiguration lab  
-- Azure Sentinel detection engineering  
-- Cloud logging & monitoring  
+## 🔧 Cloud Platform
+- AWS / Azure  
 
-## Skills Demonstrated
-- IAM hardening  
-- Cloud monitoring  
-- Detection engineering  
-- Log analysis  
+## 🧪 Steps Performed
+1. Identify misconfiguration  
+2. Analyze logs  
+3. Validate permissions  
+4. Fix or detect the issue  
+
+## 📊 Screenshots
+Add cloud console screenshots here.
+
+## 🛡️ MITRE ATT&CK Mapping
+- T1484 — Domain Policy Modification  
+- T1078 — Valid Accounts  
+
+## 🧠 What I Learned
+Short bullet list.
 
