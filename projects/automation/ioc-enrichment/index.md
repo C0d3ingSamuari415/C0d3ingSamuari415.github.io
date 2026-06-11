@@ -1,28 +1,35 @@
 # IOC Enrichment Script
 
 ## 📝 Overview
-This automation script enriches Indicators of Compromise (IOCs) using OSINT APIs.  
-It helps analysts quickly determine whether an IP, domain, or hash is malicious.
+Explain how your script enriches IPs, domains, or hashes using OSINT APIs.
+
+## 🎯 Objectives
+- Automate IOC lookups  
+- Provide quick reputation scoring  
+- Reduce manual enrichment time  
 
 ## 🔧 Tools & APIs
 - Python  
-- VirusTotal API  
+- VirusTotal  
 - AbuseIPDB  
-- OTX (AlienVault)  
+- OTX  
 
 ## 🚀 Features
-- Bulk IOC lookup  
-- Risk scoring  
-- Reputation tagging  
-- JSON → CSV export  
+- Feature 1  
+- Feature 2  
+- Feature 3  
 
-## 📊 Example Use Cases
-- Triage suspicious IPs  
-- Enrich SIEM alerts  
-- Validate threat intel  
+## 📂 Example Input
+Add sample IOCs.
+
+## 📊 Example Output
+Describe the enriched results.
+
+## 📸 Screenshots
+
+
 
 ## 🧠 What I Learned
-- API authentication  
-- JSON parsing  
-- Threat intel automation  
-
+- Key takeaway 1  
+- Key takeaway 2  
+- Key takeaway 3  
