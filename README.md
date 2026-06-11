@@ -12,5 +12,4 @@ I specialize in SOC analysis, threat detection, incident response, and security 
 - [Packet Analysis](projects/packet-analysis/)
 - [Cloud Security](projects/cloud-security/)
 
-## 📬 Contact
-[LinkedIn](#) • [GitHub](#) • [Email](#)
+
