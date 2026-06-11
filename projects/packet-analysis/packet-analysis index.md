@@ -1,15 +1,24 @@
-# Packet Analysis Labs
+# Packet Analysis Lab — [Lab Title]
 
-Network forensics and PCAP investigations using Wireshark and Zeek.
+## 📝 Overview
+Explain the network behavior you analyzed and why it matters.
 
-## Labs
-- Malware beaconing detection  
-- DNS tunneling investigation  
-- Suspicious traffic analysis  
+## 🔧 Tools Used
+- Wireshark  
+- Zeek  
+- OSINT  
 
-## Skills Demonstrated
-- PCAP analysis  
-- Protocol inspection  
-- Threat hunting  
-- Network forensics  
+## 🧪 Investigation Steps
+1. Load PCAP  
+2. Apply filters  
+3. Identify suspicious traffic  
+4. Validate with OSINT  
 
+## 📊 Screenshots
+
+## 🛡️ MITRE ATT&CK Mapping
+- T1071 — Application Layer Protocol  
+- T1041 — Exfiltration  
+
+## 🧠 What I Learned
+Short bullet list.
