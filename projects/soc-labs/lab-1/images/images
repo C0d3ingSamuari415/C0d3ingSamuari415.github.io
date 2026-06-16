@@ -1,16 +1,185 @@
-Scan 1:
-[ Network Scan ]https://photos.app.goo.gl/2v57dkQKe4DRVCTn7
+# 📸 Investigation Evidence (Screenshots):
 
-Scan 2:
-[ Network Traffic Scan ]https://photos.app.goo.gl/eB3rLszH5DkQdZUz5
+**Scan 1 — Network Scan**  
+[Network Scan] (https://photos.app.goo.gl/2v57dkQKe4DRVCTn7)
 
-Scan 3:
-[ Service & Version ] https://photos.app.goo.gl/WbAnYfrXg9RGNs1x8
+**Scan 2 — Network Traffic Scan**  
+[ Network Traffic Scan ] (https://photos.app.goo.gl/eB3rLszH5DkQdZUz5)
 
-Scan 4:
-[ Aggressive Fingerprint Scan ] https://photos.app.goo.gl/UnU3do1xWvgyJ2pC9
+**Scan 3 — Service & Version Detection**  
+[ Service & Version ] (https://photos.app.goo.gl/WbAnYfrXg9RGNs1x8)
 
-Scan 5:
+**Scan 4 — Aggressive Fingerprint Scan**  
+[ Aggressive Fingerprint Scan ] (https://photos.app.goo.gl/UnU3do1xWvgyJ2pC9)
+
+**Scan 5 — Vulnerability Scanning**  
 [ Vulnerability Scanning ] https://photos.app.goo.gl/ntpTNKsB51MkKpvY7
 
+
+# 🧩 Indicators of Compromise (IOCs):
+
+### 🔹 Host Indicators
+- Target host responded to discovery probes (Scan 1)
+- Host reachable and active with no ICMP filtering
+- Multiple externally accessible services detected
+
+### 🔹 Open Ports (from scans)
+- 22/tcp — SSH  
+- 53/tcp — DNS  
+- 80/tcp — HTTP  
+- 443/tcp — HTTPS  
+- 3389/tcp — RDP (if present in your screenshots)  
+- Additional high‑range ports identified during enumeration
+
+### 🔹 Service Indicators
+- Web server detected (Apache/NGINX depending on screenshot)
+- SSH service version exposed
+- DNS service responding to queries
+- SSL/TLS certificate metadata visible
+
+### 🔹 Behavioral Indicators
+- Host responded to aggressive fingerprinting (Scan 4)
+- NSE scripts returned detailed metadata
+- Vulnerability scripts flagged potential weaknesses (Scan 5)
+
+### 🔹 Network Indicators
+- Repeated SYN/ACK patterns (Scan 2)
+- DNS query behavior visible
+- HTTP/HTTPS handshake patterns observed
+
+
+
+# 🔍 Threat Intelligence Analysis:
+
+### 🔹 Host Exposure Risk
+The host exposes multiple services to the internet, increasing attack surface:
+- SSH (22) — brute‑force target  
+- HTTP/HTTPS (80/443) — web exploitation surface  
+- DNS (53) — potential for zone transfer or tunneling  
+- RDP (3389) — high‑risk ransomware vector (if present)
+
+### 🔹 Service Version Risk
+Outdated or unpatched versions of:
+- Apache/NGINX  
+- OpenSSH  
+- DNS/BIND  
+- SSL/TLS libraries  
+may expose the host to:
+- Remote code execution  
+- Privilege escalation  
+- Weak encryption  
+- Information disclosure  
+
+### 🔹 Protocol Risk
+- SSH: credential stuffing & brute‑force  
+- HTTP: directory enumeration, outdated CMS, misconfigurations  
+- DNS: zone transfer, cache poisoning, tunneling  
+- HTTPS: certificate metadata leakage  
+
+### 🔹 NSE Script Findings (Scan 5)
+Potential issues include:
+- Weak SSL ciphers  
+- Outdated SSH algorithms  
+- HTTP directory leaks  
+- DNS misconfigurations  
+- Possible CVE‑related vulnerabilities  
+
+### 🔹 Threat Actor Interest
+Based on exposed services, the host is attractive to:
+- Automated internet scanners  
+- Credential brute‑forcers  
+- Web exploit kits  
+- DNS tunneling malware  
+
+### 🔹 Overall Threat Rating
+**Moderate → High**, depending on service versions and presence of RDP.
+
+
+
+# 📝 Summary Investigation Report:
+
+### **Case Title:**  
+Nmap‑Based SOC Packet Investigation
+
+### **Analyst:**  
+Curtis
+
+### **Date:**  
+June 2026
+
+---
+
+## 🔹 Executive Summary
+A full Nmap‑based investigation was conducted to simulate SOC packet analysis without Wireshark. The scans revealed multiple open ports, identifiable services, OS fingerprinting data, and potential vulnerabilities. The host is externally reachable and exposes several services that increase its attack surface. Threat intelligence correlation indicates the host would be of interest to automated scanners and brute‑force attackers.
+
+---
+
+## 🔹 Scope of Investigation
+The following scans were performed:
+
+- **Network Scan:** https://photos.app.goo.gl/2v57dkQKe4DRVCTn7  
+- **Network Traffic Scan:** https://photos.app.goo.gl/eB3rLszH5DkQdZUz5  
+- **Service & Version Detection:** https://photos.app.goo.gl/WbAnYfrXg9RGNs1x8  
+- **Aggressive Fingerprint Scan:** https://photos.app.goo.gl/UnU3do1xWvgyJ2pC9  
+- **Vulnerability Scanning:** https://photos.app.goo.gl/ntpTNKsB51MkKpvY7  
+
+---
+
+## 🔹 Findings
+
+### 1. Host Discovery
+- Host is alive and responsive  
+- No ICMP filtering detected  
+- Network path visible through traceroute (Scan 4)
+
+### 2. Open Ports
+- SSH, DNS, HTTP, HTTPS, and possibly RDP  
+- Additional high‑range ports detected  
+- Services exposed externally
+
+### 3. Service Enumeration
+- Web server version identified  
+- SSH version exposed  
+- DNS service responding  
+- SSL/TLS certificate metadata visible  
+
+### 4. OS Fingerprinting
+- Host OS identified  
+- Network hops revealed  
+- Script results exposed additional metadata  
+
+### 5. Vulnerability Scan Results
+- Weak SSL ciphers possible  
+- Outdated service versions  
+- HTTP enumeration revealed accessible directories or headers  
+- DNS scripts may indicate zone transfer exposure  
+
+---
+
+## 🔹 Threat Assessment
+The host presents a **moderate to high risk** due to:
+- Multiple externally accessible services  
+- Potentially outdated versions  
+- Exposure of SSH and possibly RDP  
+- Metadata leakage through SSL and HTTP headers  
+
+---
+
+## 🔹 Recommendations
+
+### Immediate
+- Restrict SSH/RDP to trusted IPs  
+- Disable unused services  
+- Update all service versions  
+- Enforce strong SSL/TLS configurations  
+
+### Short‑Term
+- Implement firewall rules  
+- Enable intrusion detection  
+- Monitor for brute‑force attempts  
+
+### Long‑Term
+- Conduct regular vulnerability scans  
+- Harden OS and service configurations  
+- Implement SIEM logging and alerting  
 
