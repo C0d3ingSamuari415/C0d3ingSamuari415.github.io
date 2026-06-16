@@ -73,5 +73,48 @@ Purpose:
 
   Detect hardened hosts
 
-Output stored in:
-/scans/host_discovery.txt
+Output stored in: projects/soc-labs/lab-1/images
+
+3️⃣ Service & Version Enumeration
+Code: nmap -sV <IP>
+Purpose:
+
+Identify open ports
+
+Detect running services
+
+Extract version info
+
+Spot misconfigurations
+
+Output stored in: projects/soc-labs/lab-1/images
+
+4️⃣ Aggressive Fingerprinting
+Code: nmap -A <IP>
+Provides:
+
+OS fingerprint
+
+Traceroute
+
+Script results
+
+Service banners
+
+SSL/TLS info
+
+Output stored in: projects/soc-labs/lab-1/images
+
+5️⃣ Vulnerability Scanning
+Code: nmap --script vuln <IP>
+Checks for:
+
+SMB vulnerabilities
+
+SSL weaknesses
+
+HTTP misconfigurations
+
+Known CVEs
+
+Output stored in: projects/soc-labs/lab-1/images
