@@ -1,1 +1,50 @@
+ServiceNow ITSM Foundations — Service Catalog & Request Management
 
+Summary: Built and tested an end-to-end service request workflow in ServiceNow's Service Catalog, from catalog item creation through fulfillment.
+
+Overview:
+
+This project is part of the ITSM Foundations track. The goal was to simulate how an IT department lets employees request services (like new hardware, software access, or account changes) through a self-service catalog — and how that request routes through approval and fulfillment on the back end.
+
+I built a catalog item for requesting a new laptop, including manager approval and IT fulfillment steps.
+
+Environment & Tools:
+
+Platform: ServiceNow Personal Developer Instance (PDI)
+Module: Service Catalog / Request Management
+Other tools: none — browser only
+
+
+What I Did:
+
+Created a new catalog item in the Service Catalog ([item name, e.g., "Laptop Request"])
+Configured variables to capture request details ([e.g., device type, justification, urgency])
+Set up a workflow/approval step so requests route to [e.g., the requester's manager] before fulfillment
+Tested the request as an end user — submitted the catalog item and tracked it through the request queue
+Verified the request reached the correct fulfillment/assignment group and closed out correctly
+
+Screenshots:
+
+Show Image
+The Service Catalog as an end user would see it.
+
+Show Image
+Variables and workflow attached to the catalog item.
+
+Show Image
+The request after submission, showing approval status.
+
+Show Image
+The request closed out after fulfillment.
+
+Skills Demonstrated:
+
+Service Catalog design (catalog items, variables, variable sets)
+Approval workflow configuration
+Request lifecycle tracking (submitted → approved → fulfilled → closed)
+End-user vs. back-end (admin) perspective testing
+
+
+Key Takeaway
+
+[1-2 sentences: what this shows about how you think about self-service IT and request routing — not just that you clicked through the module.]
