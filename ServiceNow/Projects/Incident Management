@@ -1,1 +1,42 @@
+ServiceNow ITSM Foundations — Incident Creation & Escalation Review
+
+Summary: Documented and escalated a service-impacting incident using ServiceNow's Major Incident Management workflow, from initial report through investigation notes and queue review.
+
+Overview:
+
+This project simulates the early lifecycle of a major incident: a reported service outage comes in, is logged per the Incident Communication Plan, investigated, and tracked through the active incident queue. The scenario used was a client-reported website outage returning HTTP 404 errors.
+
+Environment & Tools:
+
+Platform: ServiceNow Personal Developer Instance (PDI)
+Module: Incident Management / Major Incident Management (Incident Communication Plans)
+Other tools: none — browser only
+
+
+What I Did:
+
+Logged a client report: the website was unresponsive, returning HTTP 404 errors
+Created an Incident Communication Plan (ICP0001002) with a short description of "Website is unresponsive," routed to the Major Incident Management assignment group
+Investigated and confirmed the issue by reproducing it across multiple browsers — verified the 404 error appeared consistently in Chrome, Firefox, and Internet Explorer
+Logged the investigation as a work note/activity entry on the record, timestamped, so the troubleshooting steps are auditable
+Reviewed the active incident queue by filtering Incident Communication Plans to State = Open, confirming the record was correctly tracked with the right severity (Low) and assignment (System Administrator)
+
+
+Screenshots:
+
+Show Image
+The Incident Communication Plan record (ICP0001002) with investigation notes logged — confirming the site returned a 404 error across three different browsers.
+
+Show Image
+Reviewing the open-incident queue, filtered to State = Open, confirming the record is correctly assigned and tracked.
+
+Skills Demonstrated:
+
+Incident intake and documentation:
+Evidence-based troubleshooting (reproducing an issue across environments before escalating)
+Major incident escalation workflow (assignment groups, ownership)
+Using filtered list views to review and manage an active incident queue
+
+
+Key Takeaway:
 
