@@ -1,21 +1,19 @@
 title: "Curtis | Cybersecurity Portfolio"
-description: "SOC Labs, Automation, Packet Analysis, and Cloud Security Projects"
+description: "SOC Labs, Automation, Packet Analysis, Cloud Security, and ServiceNow ITSM Projects"
 theme: jekyll-theme-cayman
 
 # Navigation Menu
+# Note: Cayman's default layout does not render this automatically.
+# It's kept here, accurate and ready, for when a custom _layouts/default.html is added.
 nav:
   - name: Home
     link: /
-  - name: SOC Labs
-    link: /projects/soc-labs/
-  - name: Automation
-    link: /projects/automation/
-  - name: Packet Analysis
-    link: /projects/packet-analysis/
-  - name: Cloud Security
-    link: /projects/cloud-security/
+  - name: Cybersecurity
+    link: /Cybersecurity/
+  - name: ServiceNow
+    link: /ServiceNow/
   - name: Contact
-    link: /contact
+    link: /contact/
 
 # Markdown + GitHub Pages Settings
 markdown: kramdown
